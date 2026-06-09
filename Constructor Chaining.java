@@ -1,4 +1,4 @@
-class University {
+ class University {
     University() {
         System.out.println("University Constructor");
     }
