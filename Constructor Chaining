@@ -1,0 +1,23 @@
+class University {
+    University() {
+        System.out.println("University Constructor");
+    }
+}
+
+class Department extends University {
+    Department() {
+        System.out.println("Department Constructor");
+    }
+}
+
+class Course extends Department {
+    Course() {
+        System.out.println("Course Constructor");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Course c = new Course();
+    }
+}
